@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&display=swap");
+/* font-family: 'Xanh Mono', monospace; */
+
+body {
+  font-family: "Cabin", sans-serif;
+  background-image: url(imgs/Polite-Politics-Background.jpg);
+  background-color: rgba(255, 255, 255, 0.9);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#logo-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  width: 250px;
+  height: 175px;
+}
+
+#title {
+  font-size: 70px;
+}
+
+#sub-title {
+  padding-top: 20px;
+  font-size: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+hr {
+  border: 10px solid #cce6f4;
+}
+
+.section-header {
+  font-size: 44px;
+}
+
+a {
+  color: #175676;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  transition: 0.2s;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 4px;
+  font-size: 27px;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 22px;
+}
+
+#resource-header {
+  padding-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#resources {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 400px;
+}
